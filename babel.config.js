@@ -66,6 +66,13 @@ module.exports = function(api) {
         {
           async: false
         }
+      ],
+      // New plugin added for code coverage
+      process.env.NODE_ENV === 'test' && [
+        'babel-plugin-istanbul',
+        {
+          exclude: ['**/*.spec.js']
+        }
       ]
     ].filter(Boolean)
   }
