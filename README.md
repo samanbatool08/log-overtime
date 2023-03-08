@@ -27,3 +27,6 @@ AdminUser (STI)
 - capybara -> integration testing 
 
 
+## REFACTOR TODOS: 
+- Refactor user association integration test in post_spec 
+
