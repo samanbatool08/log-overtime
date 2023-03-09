@@ -30,3 +30,5 @@ AdminUser (STI)
 ## REFACTOR TODOS: 
 - Refactor user association integration test in post_spec 
 
+
+
